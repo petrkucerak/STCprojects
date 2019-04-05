@@ -1,0 +1,53 @@
+body{
+    /*odsazení elemtu od okre nula*/
+    margin: 0px;
+    /*posune text od okrajů*/
+    padding: 2%;
+    /*nastavíme font*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    /*vymaže kolečka u seznamu*/
+    list-style-type: none;
+}
+
+a{
+    /*vymaže formátování odkazu a nastaví naši barvu*/
+    color: rgba(100, 100, 100, 1);
+    text-decoration: none;
+}
+/*nastaví formát akordů*/
+em{
+    /*nastavíme relativní pozici tj. text se nám posune o 12 px nahoru od normální pozice*/
+    position: relative;
+    top: -12px;
+    /*zvolíme barvu*/
+    color: rgb(90, 5, 76);
+    /*pro lepší viditelnost nastavíme tučné akordy*/
+    font-weight: bold;
+}
+#text-akordy{
+    /*nastaví speciální formátování textu. tj. nové řádky se budou zobrazovat jako nové*/
+    white-space: pre-line;
+    /*nastaví dvojnásobnou rozeč řádků*/
+    line-height: 200%;
+}
+h1{
+    /*nastaví barvu pro nadpis 1 úrovně*/
+    color: rgb(117, 16, 72);
+}
+header{
+    /*nastaví odsazení hlavičky od textu*/
+    margin-bottom: 30px;
+}
+/*zarovná minimenu vedle sebe*/
+header li{
+    /*zarvná doleva*/
+    float: left;
+    /*nastaví mezeru mezi odkazy*/
+    margin-right: 20px;
+}
+
+
+
